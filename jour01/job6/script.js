@@ -46,6 +46,7 @@ function fizzBuzztwo(){
         if(i % 3 ===0) output +="Fizz";
         //multiple de 5
         if(i % 5 ===0) output +="buzz";
+        
         //on fait les deux multiple 3 && 5
 
         // if(i% 3===0 && i% 5===0 ) output +="fizzbuzz";

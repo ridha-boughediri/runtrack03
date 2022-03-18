@@ -9,15 +9,24 @@
     <title>Document</title>
 </head>
 <body>
-<body>
-
+<nav>
+  <a href="#page-1">1</a>
+  <a href="#page-2">2</a>
+  <a href="#page-3">3</a>
+</nav>
+<div class="scroll-container">
+  <div class="scroll-page" id="page-1">1</div>
+  <div class="scroll-page" id="page-2">2</div>
+  <div class="scroll-page" id="page-3">3</div>
+</div>
 <span class="container">
     <div class="column-left">ress..</div>
     <div class="column-center">Craftingers  chillwave vinyl letterpress.</div>
     <div class="column-right">Crafta .</div>
 </span>
-</body>
 <footer>
   i'm a footer
 </footer>
+</body>
+
 </html>

@@ -1,6 +1,6 @@
 * {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
+	font-weight: 800;
 }
 /*Makes the content fill the screen */
 html, body, footer {
@@ -75,3 +75,39 @@ span > div {
 	.container {
 		font-size: 1.4em;
 	}
+
+
+
+	a {
+		display: inline-block;
+		width: 50px;
+		text-decoration: none;
+	  }
+	  
+	  nav, .scroll-container {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	  }
+	  
+	  nav {
+		width: 339px;
+		padding: 5px;
+		border: 1px solid black;
+	  }
+	  
+	  .scroll-container {
+		width: 350px;
+		height: 200px;
+		overflow-y: scroll;
+		scroll-behavior: smooth;
+	  }
+	  
+	  .scroll-page {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		font-size: 5em;
+	  }
+	  
