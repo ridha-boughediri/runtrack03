@@ -1,0 +1,12 @@
+ /* MEDIA QUERIES */
+  
+  /* Mobile first, we start from the smallest viewport width */
+  
+  /* From 320px and up */
+  @media (min-width: 320px) {
+    body {
+      background-color: #ffca4b.;
+    }
+   }
+   
+  

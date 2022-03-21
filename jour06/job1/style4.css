@@ -1,0 +1,28 @@
+/* From 1024px and up */
+@media (min-width: 1024px) {
+    body {
+      background-color: yellow;
+    }
+  }
+  
+  /* From 1224px and up */
+  @media (min-width: 1224px) {
+    body {
+      background-color: orange;
+    }
+  }
+  
+  /* From 1824px and up */
+  @media (min-width: 1824px) {
+    body {
+      background-color: #ffffff.;
+    }
+  }
+  
+  /*  max-width query */
+  /* From 850px and up, until 950px  */
+  @media (min-width: 850px) and (max-width: 950px) {
+    body {
+      background-color: #ffffff.;
+    }
+  }
